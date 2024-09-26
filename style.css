@@ -1,0 +1,161 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  height: 50px;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  padding: 10px;
+  top: 0;
+  align-items: center;
+  z-index: 100;
+  border-bottom: 1px solid seashell;
+}
+
+.list {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  align-content: center;
+  text-decoration: underline;
+}
+
+.list li {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  margin: 70px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content img {
+  width: 1200px;
+  max-height: 700px;
+  height: auto;
+  max-height: 1000px;
+}
+
+.content span {
+  height: auto;
+  width: 100%;
+  color: white;
+  z-index: 50;
+  padding: 0%;
+  background-color: black;
+  position: absolute;
+}
+
+.content-mid {
+  max-width: 1000px;
+  text-align: center;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.content-mid .text {
+  color: white;
+  text-align: center;
+}
+
+.content-mid-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  justify-content: center;
+}
+
+.content-mid-images img {
+  width: 300px;
+  height: 200px;
+}
+
+.content-mid-images h2 {
+  color: white;
+  margin: 10px;
+}
+
+.content-bottom {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.content-bottom .title {
+  position: absolute;
+  color: white;
+  z-index: 30;
+  top: 160px;
+}
+
+.content-bottom-boxs {
+  position: absolute;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-bottom .backgroung-location {
+  height: 500px;
+  width: auto;
+
+}
+
+.content-bottom-boxs .box-1,
+.content-bottom-boxs .box-2,
+.content-bottom-boxs .box-3 {
+  height: 300px;
+  max-width: 300px;
+  margin: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+.content-bottom-boxs ul {
+  padding: 10px;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-bottom-boxs li {
+  padding: 10px;
+  padding-top: 30px;
+  background-color: black;
+  width: 300px;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
