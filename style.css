@@ -53,7 +53,6 @@ header {
 
 .content img {
   width: 1200px;
-  max-height: 700px;
   height: auto;
   max-height: 1000px;
 }
@@ -104,6 +103,7 @@ header {
   text-align: center;
   align-items: center;
   margin: 50px;
+  margin-bottom: 0;
 }
 
 .content-bottom .title {
@@ -133,10 +133,6 @@ header {
   height: 300px;
   max-width: 300px;
   margin: 0 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   box-sizing: border-box;
 }
 
@@ -158,4 +154,29 @@ header {
   height: 100%;
   text-align: center;
   box-sizing: border-box;
+}
+
+.content-contact {
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 50px;
+  height: 200px;
+}
+
+.content-contact > *{
+  padding: 5px;
+}
+
+footer{
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  border-top: 1px solid seashell;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 100;
 }
