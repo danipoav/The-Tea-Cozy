@@ -226,7 +226,7 @@ footer {
   }
 
   .content-bottom .title {
-    top: -10px;
+    top: -20px;
   }
 
   footer {
@@ -242,11 +242,17 @@ footer {
   .content-bottom-boxs li{
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 300px;
+    font-size: 13px;
   }
 
   .content-bottom-boxs {
     margin-top: 30px;
+  }
+
+  .content-bottom-boxs ul{
+    padding: 0;
+    margin: 0;
   }
 
   .content-bottom img {
